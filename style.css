@@ -7,6 +7,17 @@
 }
 
 /*Navigation Sidebar*/
+
+.sidebar {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
 .h1 {
   font-family: inter sans-serif;
   font-size: medium-bold;

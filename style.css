@@ -63,6 +63,7 @@
   justify-content: left;
   background-color: #e4ebfa;
   margin-top: 0;
+  flex-wrap: wrap;
 }
 
 /*Each Column*/

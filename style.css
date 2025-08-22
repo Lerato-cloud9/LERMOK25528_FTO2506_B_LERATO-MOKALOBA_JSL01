@@ -51,17 +51,18 @@
   display: flex;
   flex-direction: row;
   padding: 40px;
-  margin-top: 0;
+  margin: 0;
 }
 
 /*Columns container*/
 
 .columns {
   display: flex;
-  gap: 30px;
-  padding: 30px;
+  width: 100%;
+  min-height: calc(100vh - 80px);
   justify-content: left;
-  flex-wrap: wrap;
+  background-color: #e4ebfa;
+  margin-top: 0;
 }
 
 /*Each Column*/

@@ -83,6 +83,14 @@
   gap: 8px;
 }
 
+/*Column title*/
+
+.column h4 {
+  font-size: 14px;
+  color: grey;
+  margin: 0;
+}
+
 /* Colored dots */
 
 .todo-dot {

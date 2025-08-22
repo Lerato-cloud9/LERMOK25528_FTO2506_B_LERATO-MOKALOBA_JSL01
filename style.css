@@ -67,12 +67,11 @@
 /*Each Column*/
 
 .column {
-  background-color: #f9f9f9;
   width: 280px;
-  max-width: 320px;
-  flex: 1 1 280px;
-  padding: 20px;
-  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 10px;
 }
 
 /*Column Header*/

@@ -74,3 +74,11 @@
   padding: 20px;
   border-radius: 12px;
 }
+
+/*Column Header*/
+
+.column-header {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 8px;
+}

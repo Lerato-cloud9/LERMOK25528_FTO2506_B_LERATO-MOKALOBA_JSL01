@@ -79,6 +79,18 @@
 
 .column-header {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   gap: 8px;
+}
+
+/* Colored dots */
+
+.todo-dot {
+  background-color: #4faaff;
+}
+.doing-dot {
+  background-color: #9b6cff;
+}
+.done-dot {
+  background-color: #33cc99;
 }

@@ -54,4 +54,13 @@
   margin-top: 0;
 }
 
-/*Task Columns*/
+/*Columns container*/
+
+.columns {
+  background-color: #e4ebfa;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  justify-content: left;
+  flex-wrap: wrap;
+}

@@ -31,3 +31,7 @@
   cursor: pointer;
   font-weight: 600;
 }
+
+.button:hover {
+  background-color: #4b46a3;
+}

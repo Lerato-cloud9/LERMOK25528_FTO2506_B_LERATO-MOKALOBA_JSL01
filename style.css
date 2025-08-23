@@ -128,6 +128,32 @@
   cursor: pointer;
 }
 
+/* Tablets */
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .columns {
+    justify-content: center;
+  }
+}
+
 /* Mobile screens */
 
 @media (max-width: 480px) {

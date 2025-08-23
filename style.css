@@ -86,3 +86,16 @@
   border-radius: 50%;
   display: inline-block;
 }
+
+/*Task Boxes*/
+
+.box {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

@@ -111,3 +111,39 @@
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
+
+/*Mobile Responsiveness*/
+
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
+
+  /* Sidebar becomes full width on top */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  /* Heading bar */
+  .heading {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Task columns stack vertically */
+  .columns {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .column {
+    width: 100%;
+  }
+}

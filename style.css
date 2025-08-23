@@ -69,3 +69,20 @@
   color: #828fa3;
   margin-bottom: 10px;
 }
+
+.todo-dot {
+  background-color: #49c4e5;
+}
+.doing-dot {
+  background-color: #8471f2;
+}
+.done-dot {
+  background-color: #67e2ae;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}

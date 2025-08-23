@@ -6,3 +6,12 @@
   background-color: #f4f5f7;
   display: flex;
 }
+
+.sidebar {
+  width: 220px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

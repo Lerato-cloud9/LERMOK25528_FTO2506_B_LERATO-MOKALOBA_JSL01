@@ -49,3 +49,9 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+.columns {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}

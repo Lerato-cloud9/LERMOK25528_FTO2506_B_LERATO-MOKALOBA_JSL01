@@ -7,6 +7,8 @@
   display: flex;
 }
 
+/*Sidebar*/
+
 .sidebar {
   width: 220px;
   background-color: #ffffff;
@@ -34,4 +36,16 @@
 
 .button:hover {
   background-color: #4b46a3;
+}
+
+/*Main content*/
+
+.header {
+  padding: 20px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
 }

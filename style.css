@@ -59,3 +59,13 @@
 .column {
   flex: 1;
 }
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #828fa3;
+  margin-bottom: 10px;
+}

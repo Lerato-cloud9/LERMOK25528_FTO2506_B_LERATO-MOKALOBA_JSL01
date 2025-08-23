@@ -46,7 +46,7 @@
 /*Main layout*/
 
 .heading {
-  width: 100%;
+  width: 180vh;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -58,23 +58,24 @@
 
 .columns {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   min-height: calc(100vh - 80px);
   justify-content: flex-start;
   background-color: #e4ebfa;
   margin-top: 0;
+  flex-wrap: wrap;
 }
 
 /*Each Column*/
 
 .column {
+  width: 280px;
   flex: 1 1 280px;
-  max-width: 320px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 40px;
   gap: 10px;
+  max-width: 320px;
 }
 
 /*Column Header*/
@@ -126,49 +127,4 @@
   width: 100%;
   max-width: 300px;
   cursor: pointer;
-}
-
-/* Tablets */
-@media (max-width: 768px) {
-  .body {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid #e0e0e0;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .heading {
-    padding: 20px;
-    font-size: 18px;
-  }
-
-  .columns {
-    justify-content: center;
-  }
-}
-
-/* Mobile screens */
-
-@media (max-width: 480px) {
-  .columns {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .column {
-    width: 100%;
-    max-width: 100%;
-    padding: 10px;
-  }
-
-  .box {
-    max-width: 100%;
-  }
 }
